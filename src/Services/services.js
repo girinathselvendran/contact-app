@@ -1,6 +1,8 @@
 import axios from "axios";
 
-export const API = "http://localhost:4000";
+// export const API = "http://localhost:4000";
+
+export cont API ="https://contact-app-api-mern.herokuapp.com"
 
 export const createContact = (data) => {
     return axios.post(`${API}/api/v1/create-contact`, data);
