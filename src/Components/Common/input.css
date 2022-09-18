@@ -1,0 +1,48 @@
+.input-main {
+    /* width: 200px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-div input {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 3px 10px;
+    /* border: black; */
+    /* box-shadow: 0 4px 8px 0 rgb(186, 183, 190); */
+    border: 2px solid black;
+    border-radius: 4px;
+    outline: black;
+
+}
+
+.input-div label {
+    margin: 0 10px;
+}
+
+/* label[required='true']::after { */
+.required::after {
+    color: #e32;
+    content: ' *';
+    display: inline;
+}
+
+.err_message {
+    color: red;
+    font-size: small;
+    margin-left: 10px;
+}
+
+.errorPhotoValidation {
+    border-color: red;
+}
+
+.errorValidation input {
+    border-color: red;
+}
+
+.successValidation input {
+    border-color: rgb(6, 187, 6);
+}
