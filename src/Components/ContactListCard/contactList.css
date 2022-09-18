@@ -1,0 +1,36 @@
+.contact-card {
+    width: 280px;
+    height: 80%;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.contact-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.img-section {
+    text-align: center;
+}
+
+.btn-section button {
+    width: 48%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: auto;
+}
+
+.btn-section .edit-btn {
+    background-color: rgb(9, 103, 244);
+    float: left;
+    margin-top: 20px;
+}
+
+.btn-section .delete-btn {
+    float: right;
+    background-color: rgb(239, 72, 72);
+    margin-top: 20px;
+}
